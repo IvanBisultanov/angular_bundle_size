@@ -6,4 +6,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-bundle-size';
+  show = Math.random();
+  arr = new Array(2000);
 }

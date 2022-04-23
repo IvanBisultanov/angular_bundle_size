@@ -1,1 +1,71 @@
-{{title}}
+<h1>{{title}}</h1>
+<br>
+<br>
+<br>
+<div hidden [ngClass]="{_a0: show > .5}">-7Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores eum exercitationem ipsum nobis velit, voluptatem.</div>
+<div hidden [class._a1]="show > .7">-8Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+<br>
+<br>
+<br>
+<!--case 1-->
+<!--<div-->
+<!--  [ngClass]="{-->
+<!--    _a: show > .6-->
+<!--  }"-->
+<!--&gt;1Lorem ipsum dolor sit amet, consectetur adipisicing.</div>-->
+
+<!--case 2-->
+<!--<div-->
+<!--  [class._a]="show > .6"-->
+<!--&gt;2Lorem ipsum dolor sit amet, consectetur adipisicing.</div>-->
+
+<!--case 3-->
+<!--<div-->
+<!--  [ngClass]="{-->
+<!--    _a: show > .6,-->
+<!--    _b: show > .8,-->
+<!--    _c: show > .4,-->
+<!--    _d: show > .3,-->
+<!--    _e: show > .2-->
+<!--  }"-->
+<!--&gt;3Lorem ipsum dolor sit amet, consectetur adipisicing.</div>-->
+
+<!--case 4-->
+<!--<div-->
+<!--  [class._a]="show > .6"-->
+<!--  [class._b]="show > .8"-->
+<!--  [class._c]="show > .4"-->
+<!--  [class._d]="show > .3"-->
+<!--  [class._e]="show > .2"-->
+<!--&gt;4Lorem ipsum dolor sit amet, consectetur adipisicing.</div>-->
+
+<!--case 5-->
+<!--<div-->
+<!--  *ngFor="let _ of arr"-->
+<!--  [ngClass]="{-->
+<!--    _a: show > .6,-->
+<!--    _b: show > .8,-->
+<!--    _c: show > .4,-->
+<!--    _d: show > .3,-->
+<!--    _e: show > .2,-->
+<!--    _g: show < .7,-->
+<!--    _h: show < .1,-->
+<!--    _j: show >= .23,-->
+<!--    _k: show < .22,-->
+<!--    _m: show < .21-->
+<!--  }">5Lorem ipsum dolor sit amet, consectetur adipisicing.</div>-->
+
+<!--case 6-->
+<!--<div-->
+<!--  *ngFor="let _ of arr"-->
+<!--  [class._a]="show > .6"-->
+<!--  [class._b]="show > .8"-->
+<!--  [class._c]="show > .4"-->
+<!--  [class._d]="show > .3"-->
+<!--  [class._e]="show > .2"-->
+<!--  [class._g]="show < .7"-->
+<!--  [class._h]="show < .1"-->
+<!--  [class._j]="show >= .23"-->
+<!--  [class._k]="show < .22"-->
+<!--  [class._m]="show < .21"-->
+<!--&gt;6Lorem ipsum dolor sit amet, consectetur adipisicing.</div>-->
